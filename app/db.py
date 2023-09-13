@@ -24,8 +24,8 @@ def get_cluster():
 def get_session():
     cluster = get_cluster()
     session = cluster.connect()
-    register_connection(str(session), session=session)
-    set_default_connection(str(session))
+    #register_connection(str(session), session=session)
+    #set_default_connection(str(session))
     return session
 
 
