@@ -3,7 +3,7 @@ import pathlib
 from dotenv import load_dotenv
 from cassandra.cluster import Cluster
 from cassandra.auth import PlainTextAuthProvider
-from cassandra.cqlengine.connection import register_connection, set_default_connection
+#from cassandra.cqlengine.connection import register_connection, set_default_connection
 load_dotenv
 
 ASTRA_DB_CLIENT_ID = os.eviron.get("ASTRA_DB_CLIENT_ID")
